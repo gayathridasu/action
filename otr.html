@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <h2>New Registration</h2>
+    <form>
+        <label for="Name">1. Name:</label>
+        <input type="text" placeholder="Name" required><br><br>
+        <p style="color: blue;">Note: 1. Name as recorded in the Matriculation/Secondary Examination Certificate.</p>
+        <p style="color: blue;">2. Please do not use any prefix such as Mr. or Ms. etc unless it consits of only 3 letters as 4 letters are mandatory for NAME filed.</p>
+
+        <label for="Have you ever changed name">2. Have you ever changed name:</label>
+        <select name="name" id="name">Have you ever changed name
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select><br><br>
+
+        <label for="Changed Name">3. Changed Name</label>
+        <input type="text" placeholder="Changed Name" required><br><br>
+
+        <label for="Gender">4. Gender:</label>
+        <select name="Gender" id="Gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Transgender">Transgender</option>
+        </select><br><br>
+
+        <label for="VerifyGender">5. Verify Gender</label>
+        <select name="Gender" id="Gender" placeholder="Gender">
+            <option value="Female" value="Male">Male</option>
+            <option value="Male" value="Female">Female</option>
+            <option value="Transgender">Transgender</option>
+        </select><br><br>
+
+        <label for="DOB">6. Date of Birth</label>
+        <input type="date" placeholder="DD/MM/YYYY"><br><br>
+        <p style="color: blue;">Note: 1. Date of Birth as recorded in the Matriculation/Secondary Examination Certificate.</p>
+        <p style="color: blue">2. Date of Birth (DD/MM/YYYY) Format</p> 
+        </p>
+        
+        <label for="DOB">7. Verify Date of Birth</label>
+        <input type="date" placeholder="DD/MM/YYYY"><br><br>
+        
+
+        <label for="Father's Name">8. Father's Name:</label>
+        <input type="text" placeholder="Father's Name"><br><br>
+        <p style="color: blue;">Note: Please do not use any prefix such as Shri or Dr. etc.</p>
+
+        <label for="Verify Father's Name">9. Verify Father's Name:</label>
+        <input type="text" placeholder="Verify Father's Name"><br><br>
+
+        <label for="Mother's Name">10. Mother's Name:</label>
+        <input type="text" placeholder="Mother's Name"><br><br>
+        <p style="color: blue;">Note: Please do not use any prefix such as Shri or Dr. etc.</p>
+
+        <label for="Verify Mother's Name">11. Verify Mother's Name:</label>
+        <input type="text" placeholder="Verify Mother's Name"><br><br>
+
+        <label for="Board Examination Roll No">12. Board Examination Roll No(Class Xth):</label>
+        <input type="text" placeholder="Board Examination Roll No"><br><br>
+        <p style="color: blue;">Note: Board Examination Roll No (Class Xth) as recorded in the Matriculation/Secondary Examination Certificate.</p>
+
+        <label for="Minority Status">13. Minority Statu:</label>
+        <select name="Minority Status" id="Minority Status" placeholder="Select Minority Option">
+            <option value="Minority Option">Yes</option>
+            <option value="Minority Option">No</option>
+        </select><br><br>
+
+        <label for="Minority Option">14. Minority Option:</label>
+        <select>
+            <option value="Minority Option">Muslim</option>
+            <option value="Minority Option">Christian</option>
+            <option value="Minority Option">Sikh</option>
+            <option value="Minority Option">Buddhist</option>
+            <option value="Minority Option">Zoroastrian</option>
+            <option value="Minority Option">Jain</option>
+            <option value="Minority Option">OC</option>
+        </select><br><br>
+
+        <label for="Alternate Email ID">15. Alternate Email ID:</label>
+        <input type="text"><br><br>
+
+        <label for="Alternate Mobile Number">16. Alternate Mobile Number:</label>
+        <input type="text"><br><br>
+
+        <input type="submit">
+
+    </form>
+    </fieldset>
+</body>
+</html>
